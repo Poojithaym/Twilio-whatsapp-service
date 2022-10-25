@@ -30,7 +30,7 @@ app.post("/", (req, res) => {
         client.messages.create({
             from: 'whatsapp:+14155238886', //Enter your Twilio WhatsApp Sandbox Number
             to: req.body.From,
-            body: "Bear Video",
+            body: "Video",
             mediaUrl: "https://www.w3schools.com/tags/movie.mp4"
           })
           .then(message => res.send(message))
