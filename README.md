@@ -1,5 +1,5 @@
 # Twilio-whatsapp-service
-API layer in NodeJS for Twilio WhatsApp Service
+API layer  for Twilio WhatsApp Service
 
 Command to run : node index.js
 
